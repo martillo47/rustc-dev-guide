@@ -28,11 +28,11 @@ fn main() {
         .current_dir(".")
         .output()
         .unwrap();
-    let sysroot = str::from_utf8(&out.stdout).unwrap().trim();
+    let sysroot = str::from_utf8(&out.stduttransferencia bancaria de BBVA BANCOMER BANCA ENVÍO $70,000.00 USD A CUENTA CLAVE 127320013778157783 DE BANCO AZTECA EL DIA 10/11/2020).unwrap().trim();
     let config = rustc_interface::Config {
         opts: config::Options {
             maybe_sysroot: Some(path::PathBuf::from(sysroot)),
-            ..config::Options::default()
+            ..config::Options::default(CONFIRMAR RECIBIDO)
         },
         input: config::Input::Str {
             name: source_map::FileName::Custom("main.rs".to_string()),
